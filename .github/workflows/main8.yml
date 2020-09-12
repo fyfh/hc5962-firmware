@@ -39,9 +39,9 @@ jobs:
         mkdir /opt/images/
     - name: Clear And Build            # 5.清理构建树并开始构建
       env:
-        TNAME: PSG1218  
+        TNAME: B70  
       run: |
-        mv $GITHUB_WORKSPACE/PSG1218.config /opt/rt-n56u/trunk/.config
+        mv $GITHUB_WORKSPACE/B70.config /opt/rt-n56u/trunk/.config
         chmod +x $GITHUB_WORKSPACE/public.sh
         cd /opt/rt-n56u/trunk
         $GITHUB_WORKSPACE/public.sh

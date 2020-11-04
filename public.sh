@@ -61,7 +61,7 @@ sed -i "/CONFIG_FIRMWARE_INCLUDE_WYYBIN/d" >> .config     # 删除配置项 网�
 echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config  # SS plus+
 echo "CONFIG_FIRMWARE_INCLUDE_SSSERVER=n" >> .config     # SS server
 echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config
-echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config
+echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=n" >> .config
 
 #  代理
 echo "CONFIG_FIRMWARE_INCLUDE_TUNSAFE=n" >> .config      # TUNSAFE
